@@ -55,4 +55,15 @@ return
 如果有大佬有更好的方案欢迎 share \_(:з」∠)\_
 
 
+## 日志
+
+- 20210420 initial commit v0.1
+    - 将 `ClipFav.ahk` include 到 `Clipjump.ahk` 里，实现已保存的表情可通过`】`开头的表情简称粘贴出来
+
+- 20210421
+    - 用 `addClipFav.py` 实现自动化地保存刚复制的表情并重启 `Clipjump.ahk`
+    - 局限性：并不是每次复制表情包后 clips 文件夹下就能出现正确的表情包 avc 文件，需要人看着该目录有没有复制成功体积够大的表情文件
+
+
+
 
